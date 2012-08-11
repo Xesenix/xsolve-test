@@ -1,0 +1,40 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+	{% stylesheets
+		filter = 'cssrewrite,?yui_css'
+		output = 'css/rss.css'
+		debug = false
+		'bundles/xesenixxsolverssfeed/css/style.css'
+
+	%}
+	<link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
+	{% endstylesheets %}
+{% endblock %}
+
+{% block body %}
+<div class="content">
+	<div class="wrapper">
+		<h1 class="page-title">XSolve - feed</h1>
+		
+		<div class="search-box">
+			<form action="/">
+				<input type="text" name="fraze" value="{{ fraze }}"/>
+				<input type="submit" value="Szukaj"/>
+			</form>
+		</div>
+		
+		{% for feed in feeds %}
+			<div class="feed">
+				<h2 class="feed-title">{{ feed.getTitle }}</h2>
+				<p class="feed-description">{{ feed.getDescription|raw }}</p>
+				<p class="feed-date">{{ feed.getDateModified|date("d-m-Y") }}</p>
+			</div>
+		{% else %}
+			<div class="feed">
+				<p>Nie znaleziono wpisów zawierających szukaną frazę.</p>
+			</div>
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}

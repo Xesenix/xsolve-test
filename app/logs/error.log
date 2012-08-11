@@ -1,0 +1,262 @@
+[Fri Aug 10 03:32:06 2012] [error] [client 127.0.0.1] client denied by server configuration: E:/Work/XSolve/
+[Fri Aug 10 03:32:06 2012] [error] [client 127.0.0.1] client denied by server configuration: E:/Work/XSolve/favicon.ico
+[Fri Aug 10 03:32:57 2012] [error] [client 127.0.0.1] client denied by server configuration: E:/Work/XSolve/app/
+[Fri Aug 10 03:32:57 2012] [error] [client 127.0.0.1] client denied by server configuration: E:/Work/XSolve/src/
+[Fri Aug 10 03:32:57 2012] [error] [client 127.0.0.1] client denied by server configuration: C:/Apache2, referer: http://xsolve.xesenix.pl/
+[Fri Aug 10 03:32:57 2012] [error] [client 127.0.0.1] client denied by server configuration: C:/Apache2, referer: http://xsolve.xesenix.pl/
+[Fri Aug 10 03:32:57 2012] [error] [client 127.0.0.1] client denied by server configuration: C:/Apache2, referer: http://xsolve.xesenix.pl/
+[Fri Aug 10 06:12:22 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Xesenix\\XSolve\\RssFeedBundle\\Controller\\Zend' not found in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php on line 17
+[Fri Aug 10 06:12:22 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:12:22 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:12:22 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:12:22 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:12:22 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:12:22 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:12:22 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:12:22 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '/' in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php on line 17
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher->dispatch() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1403
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher->dispatch() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher.php:78
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP   8. Symfony\\Component\\EventDispatcher\\EventDispatcher->dispatch() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:5011
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP   9. Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher->doDispatch() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:4793
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  10. call_user_func() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher.php:139
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\HttpKernel\\EventListener\\RouterListener->onKernelRequest() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher.php:139
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  12. Symfony\\Component\\Routing\\Router->match() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:5144
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  13. Symfony\\Component\\Routing\\Router->getMatcher() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:1499
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  14. Symfony\\Bundle\\FrameworkBundle\\Routing\\Router->getRouteCollection() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:1516
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  15. Symfony\\Bundle\\FrameworkBundle\\Routing\\DelegatingLoader->load() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:1836
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  16. Symfony\\Component\\Config\\Loader\\DelegatingLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\FrameworkBundle\\Routing\\DelegatingLoader.php:57
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  17. Symfony\\Component\\Routing\\Loader\\YamlFileLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Config\\Loader\\DelegatingLoader.php:52
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  18. Symfony\\Component\\Config\\Loader\\FileLoader->import() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\YamlFileLoader.php:75
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  19. Symfony\\Component\\Routing\\Loader\\YamlFileLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Config\\Loader\\FileLoader.php:75
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  20. Symfony\\Component\\Config\\Loader\\FileLoader->import() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\YamlFileLoader.php:75
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  21. Symfony\\Component\\Routing\\Loader\\YamlFileLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Config\\Loader\\FileLoader.php:75
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  22. Symfony\\Component\\Config\\Loader\\FileLoader->import() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\YamlFileLoader.php:75
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  23. Symfony\\Component\\Routing\\Loader\\AnnotationDirectoryLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Config\\Loader\\FileLoader.php:75
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  24. ReflectionClass->__construct() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\AnnotationDirectoryLoader.php:52
+[Fri Aug 10 06:12:32 2012] [error] [client 127.0.0.1] PHP  25. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\AnnotationDirectoryLoader.php:0
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Zend\\Http\\Client' not found in E:\\Work\\XSolve\\vendor\\zendframework\\zend-feed\\Zend\\Feed\\Reader\\Reader.php on line 140
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP   8. Zend\\Feed\\Reader\\Reader::import() E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php:19
+[Fri Aug 10 06:14:29 2012] [error] [client 127.0.0.1] PHP   9. Zend\\Feed\\Reader\\Reader::getHttpClient() E:\\Work\\XSolve\\vendor\\zendframework\\zend-feed\\Zend\\Feed\\Reader\\Reader.php:199
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Http\\Client' not found in E:\\Work\\XSolve\\vendor\\zendframework\\zend-feed\\Zend\\Feed\\Reader\\Reader.php on line 140
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP   8. Zend\\Feed\\Reader\\Reader::import() E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php:19
+[Fri Aug 10 06:15:08 2012] [error] [client 127.0.0.1] PHP   9. Zend\\Feed\\Reader\\Reader::getHttpClient() E:\\Work\\XSolve\\vendor\\zendframework\\zend-feed\\Zend\\Feed\\Reader\\Reader.php:199
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Http\\Client' not found in E:\\Work\\XSolve\\vendor\\zendframework\\zend-feed\\Zend\\Feed\\Reader\\Reader.php on line 140
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP   8. Zend\\Feed\\Reader\\Reader::import() E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php:19
+[Fri Aug 10 06:15:10 2012] [error] [client 127.0.0.1] PHP   9. Zend\\Feed\\Reader\\Reader::getHttpClient() E:\\Work\\XSolve\\vendor\\zendframework\\zend-feed\\Zend\\Feed\\Reader\\Reader.php:199
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP Fatal error:  Interface 'Zend\\I18n\\Translator\\TranslatorAwareInterface' not found in E:\\Work\\XSolve\\vendor\\zendframework\\zend-validator\\Zend\\Validator\\AbstractValidator.php on line 24
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP   8. Zend\\Feed\\Reader\\Reader::import() E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php:19
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP   9. Zend\\Http\\Client->setUri() E:\\Work\\XSolve\\vendor\\zendframework\\zend-feed\\Zend\\Feed\\Reader\\Reader.php:203
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  10. Zend\\Http\\Request->setUri() E:\\Work\\XSolve\\vendor\\zendframework\\zend-http\\Zend\\Http\\Client.php:303
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  11. Zend\\Uri\\Uri->__construct() E:\\Work\\XSolve\\vendor\\zendframework\\zend-http\\Zend\\Http\\Request.php:170
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  12. Zend\\Uri\\Http->parse() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:137
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  13. Zend\\Uri\\Uri->parse() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Http.php:190
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  14. Zend\\Uri\\Uri->setHost() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:267
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  15. Zend\\Uri\\Uri::validateHost() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:696
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  16. Zend\\Uri\\Uri::isValidIpAddress() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:845
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  17. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:0
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  18. require() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:82
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  19. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:0
+[Fri Aug 10 06:16:44 2012] [error] [client 127.0.0.1] PHP  20. require() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:82
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP Fatal error:  Interface 'Zend\\I18n\\Translator\\TranslatorAwareInterface' not found in E:\\Work\\XSolve\\vendor\\zendframework\\zend-validator\\Zend\\Validator\\AbstractValidator.php on line 24
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP   8. Zend\\Feed\\Reader\\Reader::import() E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php:19
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP   9. Zend\\Http\\Client->setUri() E:\\Work\\XSolve\\vendor\\zendframework\\zend-feed\\Zend\\Feed\\Reader\\Reader.php:203
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  10. Zend\\Http\\Request->setUri() E:\\Work\\XSolve\\vendor\\zendframework\\zend-http\\Zend\\Http\\Client.php:303
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  11. Zend\\Uri\\Uri->__construct() E:\\Work\\XSolve\\vendor\\zendframework\\zend-http\\Zend\\Http\\Request.php:170
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  12. Zend\\Uri\\Http->parse() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:137
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  13. Zend\\Uri\\Uri->parse() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Http.php:190
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  14. Zend\\Uri\\Uri->setHost() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:267
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  15. Zend\\Uri\\Uri::validateHost() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:696
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  16. Zend\\Uri\\Uri::isValidIpAddress() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:845
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  17. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:0
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  18. require() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:82
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  19. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:0
+[Fri Aug 10 06:17:48 2012] [error] [client 127.0.0.1] PHP  20. require() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:82
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP Fatal error:  Interface 'Zend\\I18n\\Translator\\TranslatorAwareInterface' not found in E:\\Work\\XSolve\\vendor\\zendframework\\zend-validator\\Zend\\Validator\\AbstractValidator.php on line 24
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP   8. Zend\\Feed\\Reader\\Reader::import() E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php:19
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP   9. Zend\\Http\\Client->setUri() E:\\Work\\XSolve\\vendor\\zendframework\\zend-feed\\Zend\\Feed\\Reader\\Reader.php:203
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  10. Zend\\Http\\Request->setUri() E:\\Work\\XSolve\\vendor\\zendframework\\zend-http\\Zend\\Http\\Client.php:303
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  11. Zend\\Uri\\Uri->__construct() E:\\Work\\XSolve\\vendor\\zendframework\\zend-http\\Zend\\Http\\Request.php:170
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  12. Zend\\Uri\\Http->parse() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:137
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  13. Zend\\Uri\\Uri->parse() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Http.php:190
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  14. Zend\\Uri\\Uri->setHost() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:267
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  15. Zend\\Uri\\Uri::validateHost() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:696
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  16. Zend\\Uri\\Uri::isValidIpAddress() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:845
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  17. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\zendframework\\zend-uri\\Zend\\Uri\\Uri.php:0
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  18. require() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:82
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  19. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:0
+[Fri Aug 10 06:17:50 2012] [error] [client 127.0.0.1] PHP  20. require() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:82
+[Fri Aug 10 06:20:51 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Zend\\Feed\\Reader\\Reader' not found in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php on line 17
+[Fri Aug 10 06:20:51 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:20:51 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:20:51 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:20:51 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:20:51 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:20:51 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:20:51 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:20:51 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP Fatal error:  Cannot use Zend\\Bundle\\FrameworkExtraBundle\\Configuration\\Template as Template because the name is already in use in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php on line 8
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher->dispatch() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1403
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher->dispatch() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher.php:78
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP   8. Symfony\\Component\\EventDispatcher\\EventDispatcher->dispatch() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:5011
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP   9. Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher->doDispatch() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:4793
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  10. call_user_func() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher.php:139
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\HttpKernel\\EventListener\\RouterListener->onKernelRequest() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Debug\\ContainerAwareTraceableEventDispatcher.php:139
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  12. Symfony\\Component\\Routing\\Router->match() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:5144
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  13. Symfony\\Component\\Routing\\Router->getMatcher() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:1499
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  14. Symfony\\Bundle\\FrameworkBundle\\Routing\\Router->getRouteCollection() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:1516
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  15. Symfony\\Bundle\\FrameworkBundle\\Routing\\DelegatingLoader->load() E:\\Work\\XSolve\\app\\cache\\dev\\classes.php:1836
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  16. Symfony\\Component\\Config\\Loader\\DelegatingLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\FrameworkBundle\\Routing\\DelegatingLoader.php:57
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  17. Symfony\\Component\\Routing\\Loader\\YamlFileLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Config\\Loader\\DelegatingLoader.php:52
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  18. Symfony\\Component\\Config\\Loader\\FileLoader->import() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\YamlFileLoader.php:75
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  19. Symfony\\Component\\Routing\\Loader\\YamlFileLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Config\\Loader\\FileLoader.php:75
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  20. Symfony\\Component\\Config\\Loader\\FileLoader->import() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\YamlFileLoader.php:75
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  21. Symfony\\Component\\Routing\\Loader\\YamlFileLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Config\\Loader\\FileLoader.php:75
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  22. Symfony\\Component\\Config\\Loader\\FileLoader->import() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\YamlFileLoader.php:75
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  23. Symfony\\Component\\Routing\\Loader\\AnnotationDirectoryLoader->load() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Config\\Loader\\FileLoader.php:75
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  24. ReflectionClass->__construct() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\AnnotationDirectoryLoader.php:52
+[Fri Aug 10 06:41:41 2012] [error] [client 127.0.0.1] PHP  25. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Routing\\Loader\\AnnotationDirectoryLoader.php:0
+[Fri Aug 10 06:42:28 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Xesenix\\XSolve\\RssFeedBundle\\Controller\\Feed\\Reader\\Reader' not found in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php on line 18
+[Fri Aug 10 06:42:28 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:42:28 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:42:28 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:42:28 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:42:28 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:42:28 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:42:28 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:42:28 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:43:09 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Zend\\Feed\\Reader' not found in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php on line 18
+[Fri Aug 10 06:43:09 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:43:09 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:43:09 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:43:09 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:43:09 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:43:09 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:43:09 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:43:09 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:44:03 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Zend\\Debug' not found in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php on line 23
+[Fri Aug 10 06:44:03 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 06:44:03 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 06:44:03 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 06:44:03 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 06:44:03 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 06:44:03 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 06:44:03 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 06:44:03 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Xesenix\\XSolve\\RssFeedBundle\\Feed\\Filter\\Description\\AbstractFilter' not found in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Feed\\Filter\\Description.php on line 6
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\Kernel->boot() E:\\Work\\XSolve\\app\\bootstrap.php.cache:607
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\Kernel->initializeContainer() E:\\Work\\XSolve\\app\\bootstrap.php.cache:564
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\Kernel->buildContainer() E:\\Work\\XSolve\\app\\bootstrap.php.cache:852
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\DependencyInjection\\ContainerBuilder->compile() E:\\Work\\XSolve\\app\\bootstrap.php.cache:943
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\DependencyInjection\\Compiler\\Compiler->compile() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\DependencyInjection\\ContainerBuilder.php:449
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP   8. JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass->process() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\DependencyInjection\\Compiler\\Compiler.php:119
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP   9. JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass->processDefinition() E:\\Work\\XSolve\\vendor\\jms\\aop-bundle\\JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass.php:59
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP  10. class_exists() E:\\Work\\XSolve\\vendor\\jms\\aop-bundle\\JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass.php:96
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\jms\\aop-bundle\\JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass.php:0
+[Fri Aug 10 08:00:28 2012] [error] [client 127.0.0.1] PHP  12. require() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\ClassLoader\\DebugClassLoader.php:82
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ';', expecting T_STRING in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Feed\\Filter\\Description.php on line 3
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\Kernel->boot() E:\\Work\\XSolve\\app\\bootstrap.php.cache:607
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\Kernel->initializeContainer() E:\\Work\\XSolve\\app\\bootstrap.php.cache:564
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\Kernel->buildContainer() E:\\Work\\XSolve\\app\\bootstrap.php.cache:852
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\DependencyInjection\\ContainerBuilder->compile() E:\\Work\\XSolve\\app\\bootstrap.php.cache:943
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\DependencyInjection\\Compiler\\Compiler->compile() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\DependencyInjection\\ContainerBuilder.php:449
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP   8. JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass->process() E:\\Work\\XSolve\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\DependencyInjection\\Compiler\\Compiler.php:119
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP   9. JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass->processDefinition() E:\\Work\\XSolve\\vendor\\jms\\aop-bundle\\JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass.php:59
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP  10. class_exists() E:\\Work\\XSolve\\vendor\\jms\\aop-bundle\\JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass.php:96
+[Fri Aug 10 08:00:59 2012] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\ClassLoader\\DebugClassLoader->loadClass() E:\\Work\\XSolve\\vendor\\jms\\aop-bundle\\JMS\\AopBundle\\DependencyInjection\\Compiler\\PointcutMatchingPass.php:0
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function count() on a non-object in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Feed\\Filter\\Description.php on line 13
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 08:10:10 2012] [error] [client 127.0.0.1] PHP   8. Xesenix\\XSolve\\RssFeedBundle\\Feed\\Filter\\Description->filterContaining() E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php:25
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function current() on a non-object in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Feed\\Filter\\Description.php on line 16
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 08:10:41 2012] [error] [client 127.0.0.1] PHP   8. Xesenix\\XSolve\\RssFeedBundle\\Feed\\Filter\\Description->filterContaining() E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php:25
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function next() on a non-object in E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Feed\\Filter\\Description.php on line 18
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP   1. {main}() E:\\Work\\XSolve\\web\\app_dev.php:0
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() E:\\Work\\XSolve\\web\\app_dev.php:28
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP   3. Symfony\\Bundle\\FrameworkBundle\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:610
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1559
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1383
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP   6. call_user_func_array() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP   7. Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController->indexAction() E:\\Work\\XSolve\\app\\bootstrap.php.cache:1419
+[Fri Aug 10 08:10:55 2012] [error] [client 127.0.0.1] PHP   8. Xesenix\\XSolve\\RssFeedBundle\\Feed\\Filter\\Description->filterContaining() E:\\Work\\XSolve\\src\\Xesenix\\XSolve\\RssFeedBundle\\Controller\\DefaultController.php:25

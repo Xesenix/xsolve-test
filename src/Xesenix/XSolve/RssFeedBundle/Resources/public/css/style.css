@@ -1,0 +1,69 @@
+body {
+	background-color: #aaa;
+}
+
+.content {
+	
+}
+
+.content .wrapper {
+	width: 980px;
+	padding: 0px 0px 20px;
+	margin: 20px auto;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 4px 4px 10px;
+	background-color: #fff;
+}
+
+.page-title {
+	display: block;
+	padding: 10px 40px;
+	margin: 0 0 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #000;
+	color: #fff;
+}
+
+.search-box {
+	margin: 10px 40px 20px;
+}
+
+.search-box input[type="text"] {
+	padding: 4px 8px;
+	border: 1px solid #ddd;
+}
+
+.search-box input[type="submit"] {
+	padding: 4px 8px;
+	border: 1px solid #ddd;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+}
+
+.search-box input[type="submit"]:hover {
+	background-color: #0000c7;
+	cursor: pointer;
+}
+
+.feed {
+	margin: 0 40px 20px;
+}
+
+.feed-title {
+	display: block;
+	padding: 0 0 4px;
+	border-bottom: 1px solid #ddd;
+}
+
+.feed-description {
+	text-align: justify;
+}
+
+.feed-date {
+	display: block;
+	border-top: 1px solid #ddd;
+	text-align: right;
+	color: #aaa;
+}
